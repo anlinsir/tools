@@ -1,0 +1,13 @@
+input::-webkit-input-safebox-button{display:none;}
+#sogou_secure_inputs_container{display:none;}
+/* 去掉搜狗（等）浏览器 自带软键盘 */
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type="number"]{
+    -moz-appearance: textfield;
+}
+/* 去掉 type=number的自带按钮 */
