@@ -1,0 +1,10 @@
+.hideScroll::-webkit-scrollbar {display:none}
+/* .element::-webkit-scrollbar {display:none} */
+/* 去滚动条 */
+
+.fill { object-fit: fill; }
+.contain { object-fit: contain; }
+.cover { object-fit: cover; }
+.none { object-fit: none; }
+.scale-down { object-fit: scale-down; }
+/* 图片在容器里的显示方式 */
