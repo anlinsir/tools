@@ -36,7 +36,7 @@ export const  StrRep = (string,replaceString,afterRreplaceString) => {//字符�
 
 }
 
-//上传图片 查看图片原始大小
+//上传图片 查看图片原始的大小   
 // var reader = new FileReader();
 // var img = new Image();
 // let file = e.target.files[0];
