@@ -48,3 +48,18 @@ export const  StrRep = (string,replaceString,afterRreplaceString) => {//字符�
 //         }
 // }
 //文件大小 1024*1024* 多少M
+
+
+//判断浏览器类型
+function device_type (){
+    let u = navigator.userAgent;
+    let isAndroid = u.indexOf('Android') > -1 || u.indexOf('Linux') > -1; //g
+    let isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+    if (isAndroid) {
+        return 'Android';
+    } else if (isIOS) {
+        return 'IOS';
+    } else {
+        return 'pc';
+    }
+}
